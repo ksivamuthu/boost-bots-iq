@@ -1,0 +1,13 @@
+{
+  "azureFunctions.projectRuntime": "beta",
+  "azureFunctions.projectLanguage": "JavaScript",
+  "azureFunctions.templateFilter": "Verified",
+  "files.exclude": {
+    "**/*.js.map": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+  "editor.fontSize": 12,
+  "git.ignoreLimitWarning": true
+}

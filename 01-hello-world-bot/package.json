@@ -1,0 +1,29 @@
+{
+  "name": "hello-world-bot",
+  "version": "1.0.0",
+  "description": "Boost your bot's iq",
+  "main": "index.js",
+  "dependencies": {
+    "botbuilder": "~3.13.1",
+    "botbuilder-azure": "~3.0.4",
+    "dotenv": "~5.0.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/node": "^10.3.2",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.1"
+  },
+  "scripts": {
+    "func-pack": "funcpack pack -c .",
+    "start-dev": "func host start --debug VSCode",
+    "build": "npm run build-ts && npm run lint-ts && npm run func-pack",
+    "build-dev": "npm run build-ts && npm run lint-ts",
+    "build-ts": "tsc",
+    "lint-ts": "tslint-config-prettier-check ./tslint.json",
+    "watch": "tsc -w"
+  },
+  "author": "ksivamuthu",
+  "license": "MIT"
+}
