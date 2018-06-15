@@ -1,6 +1,6 @@
 # Boost your Bot's IQ Demo
 
-This repository includes the demo of presentation [Boost your Bot's IQ](https://docs.google.com/presentation/d/1jShbY-fY0eyq844pKczdKfZhFSV7K79npgS7J9yfJNo/edit)
+This repository includes the demo of presentation [Boost your Bot's IQ](https://speakerdeck.com/ksivamuthu/boost-your-bots-iq)
 
 ## [Hello World Bot](01-hello-world-bot)
 
