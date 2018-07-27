@@ -1,0 +1,15 @@
+{
+    "name": "Hello World Bot",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:7071/api/messages",
+            "name": "http://localhost:7071/api/messages"
+        }
+    ]
+}
