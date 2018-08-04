@@ -1,0 +1,2192 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "1a427f90-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T19:59:30-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-07-27T23:59:30.825Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "1a427f91-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T19:59:30-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-07-27T23:59:30.825Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Can you make me a reservation in Tampa?",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:00:54.250Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:00:54-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Sure. I'm ready to help you at any time.",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:00:54-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "4c5abf61-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:00:54.870Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736054255,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Can you make me a reservation in Tampa?\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054606,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Create Reservation(0.864711344)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054606,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tGlobalAction(0.864711344)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054607,
+        "level": "info",
+        "msg": "Session.beginDialog(*:CreateReservation)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054608,
+        "level": "info",
+        "msg": "waterfall() step 1 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054608,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054609,
+        "level": "info",
+        "msg": "Session.beginDialog(LocationDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054609,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054609,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054610,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054610,
+        "level": "info",
+        "msg": "waterfall() step 2 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054610,
+        "level": "info",
+        "msg": "Session.beginDialog(CuisineDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054610,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736054865,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:00:54-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "4c5b82b1-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:00:54.875Z"
+  },
+  {
+    "type": "message",
+    "text": "What type of food are you in the mood for?",
+    "suggestedActions": {
+      "to": [],
+      "actions": [
+        {
+          "type": "imBack",
+          "value": "Pizza",
+          "title": "Pizza (20)"
+        },
+        {
+          "type": "imBack",
+          "value": "Italian",
+          "title": "Italian (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cheesesteaks",
+          "title": "Cheesesteaks (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Indian",
+          "title": "Indian (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vegetarian",
+          "title": "Vegetarian (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Halal",
+          "title": "Halal (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Food Delivery Services",
+          "title": "Food Delivery Services (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chinese",
+          "title": "Chinese (5)"
+        },
+        {
+          "type": "imBack",
+          "value": "Subs",
+          "title": "Subs (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sandwiches",
+          "title": "Sandwiches (5)"
+        },
+        {
+          "type": "imBack",
+          "value": "Dessert",
+          "title": "Dessert (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Ice Cream",
+          "title": "Ice Cream (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Ice Cream & Frozen Yogurt",
+          "title": "Ice Cream & Frozen Yogurt (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Custom Cakes",
+          "title": "Custom Cakes (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cupcakes",
+          "title": "Cupcakes (1)"
+        },
+        {
+          "type": "imBack",
+          "title": " (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Deli",
+          "title": "Deli (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Delis",
+          "title": "Delis (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Wings",
+          "title": "Wings (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Italian Food",
+          "title": "Italian Food (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chicken Wings",
+          "title": "Chicken Wings (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Desserts",
+          "title": "Desserts (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Gelato",
+          "title": "Gelato (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Barbeque",
+          "title": "Barbeque (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Bar/Pub Food",
+          "title": "Bar/Pub Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sports Bars",
+          "title": "Sports Bars (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chinese Food",
+          "title": "Chinese Food (4)"
+        },
+        {
+          "type": "imBack",
+          "value": "Asian Food",
+          "title": "Asian Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vietnamese Food",
+          "title": "Vietnamese Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Dim Sum",
+          "title": "Dim Sum (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vietnamese",
+          "title": "Vietnamese (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Mediterranean Food",
+          "title": "Mediterranean Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Mediterranean",
+          "title": "Mediterranean (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Salad",
+          "title": "Salad (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Healthy Food",
+          "title": "Healthy Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Soup",
+          "title": "Soup (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Taiwanese",
+          "title": "Taiwanese (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Japanese Food",
+          "title": "Japanese Food (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Subs & Sandwiches",
+          "title": "Subs & Sandwiches (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "American Food",
+          "title": "American Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Greek Food",
+          "title": "Greek Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Middle Eastern Food",
+          "title": "Middle Eastern Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Middle Eastern",
+          "title": "Middle Eastern (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Greek",
+          "title": "Greek (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Pita",
+          "title": "Pita (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Healthy",
+          "title": "Healthy (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Fast Food",
+          "title": "Fast Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Pasta",
+          "title": "Pasta (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sushi",
+          "title": "Sushi (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cuban Food",
+          "title": "Cuban Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Latin American Food",
+          "title": "Latin American Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cuban",
+          "title": "Cuban (1)"
+        }
+      ]
+    },
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:00:55-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "4cbb2ee1-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:00:55.502Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736055246,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736055246,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736055499,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:00:55-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "4cbcb581-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4bfc24a0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:00:55.512Z"
+  },
+  {
+    "type": "message",
+    "text": "Pizza",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:00:59.760Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "4f44e700-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:00:59-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Alright, let's see what we can find.",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:00-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "4fc47740-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4f44e700-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:00.596Z"
+  },
+  {
+    "type": "message",
+    "text": "Here are some **Pizza** restaurants I found near *tampa*:",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Antonio's Pizzeria",
+          "subtitle": "2805 38th Ave North, St Petersburg, St Petersburg - 33713",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/anthonys-pizzeria-21353_1407442279116.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/anthonys-pizzeria",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Antonio's Pizzeria",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Astra Pizza",
+          "subtitle": "2915 16th St N, St. Petersburg, St. Petersburg - 33704",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/astra-pizza-39661_1486198856162.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/astra-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Astra Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Brickhouse Pizza",
+          "subtitle": "3887 Northdale Blvd, Tampa, Tampa - 33624",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/brickhouse-pizza-21909_1470675371089.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/brickhouse-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Brickhouse Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Central Pizza Inc.",
+          "subtitle": "7280 49th St N, Pinellas Park, Pinellas Park - 33781",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/central-pizza-inc-26558_1420825393156.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/central-pizza-inc",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Central Pizza Inc.",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Chubby's Super Subs and Pizza",
+          "subtitle": "5023 Bayshore Blvd, Tampa, Tampa - 33611",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/chubbys-super-subs-and-pizza-17718_1405017421430.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/chubbys-super-subs-and-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Chubby's Super Subs and Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Country Pizza Italian Grill - Largo",
+          "subtitle": "14820 US Highway 19 North, Clearwater, Clearwater - 33764",
+          "images": [
+            {
+              "url": "https://d3eygjmkm00b63.cloudfront.net/f3d576ad5010e7196d7b4211b87bf3b3/banner.jpg"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/country-pizza-italian-grill-largo",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Country Pizza Italian Grill - Largo",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "D & D Gourmet Deli",
+          "subtitle": "4205 W Kennedy Blvd, Tampa, Tampa - 33609",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/d-and-d-gourmet-deli-6992_1384539528973.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/d-and-d-gourmet-deli",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "D & D Gourmet Deli",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "DP Dough",
+          "subtitle": "500 South Howard Ave. Suite C, Tampa, Tampa - 33606",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/dp-dough-38105_1474925018877.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/dp-dough-tampa",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "DP Dough",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Eddie and Sam's New York Pizza",
+          "subtitle": "203 East Twiggs St., Tampa, Tampa - 33602",
+          "images": [
+            {
+              "url": "https://d3eygjmkm00b63.cloudfront.net/db0c69699accd387084c89c7d0de76a9/banner.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/eddie-and-sams-new-york-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Eddie and Sam's New York Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Islands Pizza",
+          "subtitle": "235 E Davis Blvd, Tampa, Tampa - 33606",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/islands-pizza-6993_1384540009731.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/islands-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Islands Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Mama Rosa's Pizza",
+          "subtitle": "1616 East 7th Avenue, Tampa, Tampa - 33605",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/mama-rosas-pizza-31489_1435195716698.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/mama-rosas-pizza-tampa",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Mama Rosa's Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Mama's Famous Pizza",
+          "subtitle": "9045 Starkey Rd, Seminole, Seminole - 33777",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/mamas-famous-pizza-33990_1446664589496.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/mamas-famous-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Mama's Famous Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Mangia Bene Pizza",
+          "subtitle": "1811 N 15th Street, Tampa, Tampa - 33605",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/mangia-bene-pizza-23132_1411067995334.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/mangia-bene-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Mangia Bene Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Mei's World Pizza and Salads",
+          "subtitle": "2592 E Bearss Ave, Tampa, Tampa - 33613",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/meis-world-pizza-and-salads-7159_1386295583856.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/meis-world-pizza-and-salads",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Mei's World Pizza and Salads",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "New York, New York Pizza - Carrollwood",
+          "subtitle": "10053 N Dale Mabry, Tampa, Tampa - 33618",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/amores-fresh-slice-pizzeria-10576_1397065209089.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/new-york-new-york-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "New York, New York Pizza - Carrollwood",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Peabody's",
+          "subtitle": "15333 Amberly Dr, Tampa, Tampa - 33647",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/peabodys-18798_1406928980714.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/peabodys",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Peabody's",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Pita's Republic",
+          "subtitle": "8412 W Hillsborough Ave, Tampa, Tampa - 33615",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/pitas-republic-40610_1494537765996.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/pitas-republic-w-hillsborough-ave",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Pita's Republic",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Pizza Famiglia",
+          "subtitle": "1402 E Fletcher Ave, Tampa, Tampa - 33612",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/pizza-famiglia-6940_1384360397149.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/pizza-famiglia",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Pizza Famiglia",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Ravello Pizzeria",
+          "subtitle": "4900 E Bay Dr, Clearwater, Clearwater - 33764",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/ravello-pizzeria-16659_1403122761530.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/ravello-pizzeria",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Ravello Pizzeria",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Slice Masters",
+          "subtitle": "4538 W Village Dr, Tampa, Tampa - 33624",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/slice-masters-18082_1406064543003.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/slice-masters",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Slice Masters",
+              "title": "Select"
+            }
+          ]
+        }
+      }
+    ],
+    "attachmentLayout": "carousel",
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:00-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "4fc588b0-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4f44e700-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:00.602Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736059770,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Pizza\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060142,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Cancel(0.334329724)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060144,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060144,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060144,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060144,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060145,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060145,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060145,
+        "level": "info",
+        "msg": "waterfall() step 3 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060145,
+        "level": "info",
+        "msg": "Session.beginDialog(RestaurantDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060145,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060337,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060337,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736060591,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "4f44e700-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:01:00-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "4fc69a20-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "4f44e700-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:00.610Z"
+  },
+  {
+    "type": "message",
+    "text": "Antonio's Pizzeria",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:01:02.886Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:01:02-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736062895,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Antonio's Pizzeria\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063251,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: None(0.1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063252,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063252,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063252,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063252,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736063506,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 0 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:01:03-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "51816980-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:03.512Z"
+  },
+  {
+    "type": "message",
+    "text": "Sounds good...**Antonio's Pizzeria** it is!",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:04-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "52151e01-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:04.480Z"
+  },
+  {
+    "text": "When will you be eating?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:04-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5215e151-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:04.485Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736064222,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064222,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064222,
+        "level": "info",
+        "msg": "waterfall() step 4 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064222,
+        "level": "info",
+        "msg": "Session.beginDialog(WhenDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064222,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064223,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-time)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064223,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736064476,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:01:04-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5216f2c0-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5121e460-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:04.492Z"
+  },
+  {
+    "type": "message",
+    "text": "Aug 8 6pm",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:01:22.706Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "5cf22f20-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:01:22-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Got it.  I'll book the reservation at **Wednesday, August 8, 2018 6:00 PM**",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "5d5313d1-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5cf22f20-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:23.341Z"
+  },
+  {
+    "text": "How many people will be in your party?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:01:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5d53d721-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5cf22f20-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:23.346Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736082712,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Aug 8 6pm\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083080,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: None(0.1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083082,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083082,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083082,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083082,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083083,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083083,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083083,
+        "level": "info",
+        "msg": "waterfall() step 5 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083083,
+        "level": "info",
+        "msg": "Session.beginDialog(PartySizeDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083083,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083084,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-number)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083084,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736083337,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5cf22f20-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:01:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5d547361-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "5cf22f20-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:01:23.350Z"
+  },
+  {
+    "type": "message",
+    "text": "We are expecting 30 ",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:02:11.460Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.8"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "7a017440-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:02:11-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Got it",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:02:12-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "7a614780-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7a017440-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:12.088Z"
+  },
+  {
+    "type": "message",
+    "text": "OK, here's what I have.  Click 'Reserve' to confirm your reservation.",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Antonio's Pizzeria (30)",
+          "subtitle": "Wednesday, August 8, 2018 6:00 PM",
+          "text": "2805 38th Ave North, St Petersburg, St Petersburg - 33713",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/anthonys-pizzeria-21353_1407442279116.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "value": "Reserve",
+              "title": "Reserve"
+            }
+          ]
+        }
+      }
+    ],
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:02:12-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7a61e3c1-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7a017440-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:12.092Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736131466,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"We are expecting 30 \" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131825,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Set Reservation Party Size(0.149353072)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131826,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tGlobalAction(0.149353072)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131826,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.6052631578947368)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131827,
+        "level": "info",
+        "msg": "Prompt.returning(30)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131827,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131827,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131828,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131828,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131828,
+        "level": "info",
+        "msg": "waterfall() step 6 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131828,
+        "level": "info",
+        "msg": "Session.beginDialog(ConfirmReservationDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131828,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131829,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736131829,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736132083,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "7a017440-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:02:12-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7a62ce21-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7a017440-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:12.098Z"
+  },
+  {
+    "type": "message",
+    "text": "Reserve",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-07-28T00:02:15.998Z",
+    "channelData": {
+      "clientActivityId": "1532735970806.2798530152653125.10"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "id": "7cb5e5e0-91f9-11e8-bc9d-15dbbab10730",
+    "localTimestamp": "2018-07-27T20:02:15-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:57962"
+  },
+  {
+    "type": "message",
+    "text": "Alright, you're all set for **Antonio's Pizzeria** on **Aug 8, 2018** at **6:00 PM**.  I hope you have a great time!  Good-bye!",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:02:16-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "7ce77d30-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7cb5e5e0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:16.323Z"
+  },
+  {
+    "type": "endOfConversation",
+    "code": "completedSuccessfully",
+    "locale": "en-US",
+    "localTimestamp": "2018-07-27T20:02:16-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7ce84081-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7cb5e5e0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:16.328Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1532736136007,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Reserve\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136315,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: None(0.1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136316,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136316,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136316,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136316,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136316,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136317,
+        "level": "info",
+        "msg": "waterfall() step 7 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136317,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136317,
+        "level": "info",
+        "msg": "Session.endConversation()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1532736136318,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "7cb5e5e0-91f9-11e8-bc9d-15dbbab10730",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:57962"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-07-27T20:02:16-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7ce97901-91f9-11e8-bc9d-15dbbab10730",
+    "replyToId": "7cb5e5e0-91f9-11e8-bc9d-15dbbab10730",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "1a3f7250-91f9-11e8-b670-8767a4105eb1|livechat"
+    },
+    "timestamp": "2018-07-28T00:02:16.336Z"
+  }
+]
