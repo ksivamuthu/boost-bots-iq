@@ -1,5 +1,5 @@
-import { MemoryBotStorage, UniversalBot } from "botbuilder";
-import { BotServiceConnector } from "botbuilder-azure";
+import { MemoryBotStorage, UniversalBot } from 'botbuilder';
+import { BotServiceConnector } from 'botbuilder-azure';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
@@ -14,7 +14,7 @@ const connector = new BotServiceConnector({
 const bot = new UniversalBot(connector, (session, _args) => {
     const text = session.message.text!
     // Count the text length and send it back
-    session.endDialog(`You sent \"${text}\" which was ${text.length} characters`);
+    session.endDialog(`You sent '${text}' which was ${text.length} characters`);
 });
 
 // Set inMemory Storage
