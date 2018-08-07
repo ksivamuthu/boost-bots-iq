@@ -8,5 +8,7 @@
   },
   "editor.fontSize": 12,
   "git.ignoreLimitWarning": true,
-  "npm-scripts.showStartNotification": false
+  "npm-scripts.showStartNotification": false,
+  "azureFunctions.zipGlobPattern": "**/*",
+  "azureFunctions.zipIgnorePattern": ["node_modules/", ".env**"]
 }
