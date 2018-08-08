@@ -4,12 +4,20 @@
     "secretKey": "",
     "services": [
         {
-            "appId": "",
             "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+            "name": "Restaurant Bot",
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:7071/api/messages"
+        },
+        {
+            "appId": "",
+            "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
             "type": "endpoint",
             "appPassword": "",
-            "endpoint": "http://localhost:7071/api/messages",
-            "name": "http://localhost:7071/api/messages"
+            "endpoint": "http://localhost:9000/api/messages",
+            "name": "Raksha Bot"
         }
     ]
 }
