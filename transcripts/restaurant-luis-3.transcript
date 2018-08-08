@@ -1,0 +1,1337 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "97a226d0-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:34:36-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-08T02:34:36.861Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "97a226d1-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:34:36-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-08T02:34:36.861Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "Make me a reservation in Orlando in chinese restaurant",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:35:02.076Z",
+    "channelData": {
+      "clientActivityId": "1533695676836.7824002506230543.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:35:02-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "I'm on it.",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:02-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "a724a421-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:02.882Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695702089,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Make me a reservation in Orlando in chinese restaurant\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702589,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Create Reservation(0.8807346)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702591,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tGlobalAction(0.8807346)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702593,
+        "level": "info",
+        "msg": "Session.beginDialog(*:CreateReservation)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702595,
+        "level": "info",
+        "msg": "waterfall() step 1 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702596,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702599,
+        "level": "info",
+        "msg": "Session.beginDialog(LocationDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702601,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702602,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702605,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702607,
+        "level": "info",
+        "msg": "waterfall() step 2 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702609,
+        "level": "info",
+        "msg": "Session.beginDialog(CuisineDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702611,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702614,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702616,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702619,
+        "level": "info",
+        "msg": "waterfall() step 3 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702621,
+        "level": "info",
+        "msg": "Session.beginDialog(RestaurantDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702624,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702876,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:02-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "a7258e81-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:02.888Z"
+  },
+  {
+    "type": "message",
+    "text": "Here are some **chinese** restaurants I found near *orlando*:",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Beijing Tokyo Japanese Restaurant",
+          "subtitle": "16112 Marsh Rd, Winter Garden, Winter Garden - 34787",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/beijing-tokyo-japanese-restaurant-32818_1442171546783.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/orlando-fl/restaurants/beijing-tokyo-japanese-restaurant",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Beijing Tokyo Japanese Restaurant",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Cheng's Chinese & Japanese Cuisine",
+          "subtitle": "4004 S Semoran Blvd, Orlando, Orlando - 32822",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/chengs-chinese-and-japanese-cuisine-31339_1434810232588.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/orlando-fl/restaurants/chengs-chinese-and-japanese-cuisine",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Cheng's Chinese & Japanese Cuisine",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "China Garden - Orlando",
+          "subtitle": "8833 Conroy Windermere Rd, Orlando, Orlando - 32835",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/china-garden-orlando-40751_1496488627196.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/orlando-fl/restaurants/china-garden-orlando",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "China Garden - Orlando",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Eastern Pearl Restaurant",
+          "subtitle": "2959 Vineland Rd, Kissimmee, Kissimmee - 34746",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/china-pearl-restaurant-31438_1434812471677.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/orlando-fl/restaurants/eastern-pearl-restaurant-vineland",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Eastern Pearl Restaurant",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Run & Run Chinese Restaurant",
+          "subtitle": "8560 Palm Pkwy, Orlando, Orlando - 32836",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/run-and-run-chinese-restaurant-31364_1434725490914.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/orlando-fl/restaurants/run-and-run-chinese-restaurant",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Run & Run Chinese Restaurant",
+              "title": "Select"
+            }
+          ]
+        }
+      }
+    ],
+    "attachmentLayout": "carousel",
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:03-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "a7566281-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:03.208Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695702946,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695702949,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695703204,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:03-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "a756fec1-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a6a9a7c0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:03.212Z"
+  },
+  {
+    "type": "message",
+    "text": "Beijing Tokyo Japanese Restaurant",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:35:06.311Z",
+    "channelData": {
+      "clientActivityId": "1533695676836.7824002506230543.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "a92fdd70-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:35:06-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "Sounds good...**Beijing Tokyo Japanese Restaurant** it is!",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:07-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "a9b14270-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a92fdd70-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:07.159Z"
+  },
+  {
+    "text": "When will you be eating?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:07-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "a9b253e0-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a92fdd70-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:07.166Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695706323,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Beijing Tokyo Japanese Restaurant\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706670,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: None(0.1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706675,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706681,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706685,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706690,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706883,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706886,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706889,
+        "level": "info",
+        "msg": "waterfall() step 4 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706891,
+        "level": "info",
+        "msg": "Session.beginDialog(WhenDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706893,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706896,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-time)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695706897,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695707154,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "a92fdd70-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:07-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "a9b2f021-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "a92fdd70-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:07.170Z"
+  },
+  {
+    "type": "message",
+    "text": "9pm today",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:35:14.762Z",
+    "channelData": {
+      "clientActivityId": "1533695676836.7824002506230543.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "ae3962a0-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:35:14-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "Got it.  I'll book the reservation for **Beijing Tokyo Japanese Restaurant** at **Tuesday, August 7, 2018 9:00 PM**",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "aea48081-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "ae3962a0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:15.464Z"
+  },
+  {
+    "text": "How many people will be in your party?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "aea51cc1-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "ae3962a0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:15.468Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695714776,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"9pm today\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715173,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Greeting(0.248024553)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715178,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715181,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715182,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715184,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715186,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715188,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715190,
+        "level": "info",
+        "msg": "waterfall() step 5 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715192,
+        "level": "info",
+        "msg": "Session.beginDialog(PartySizeDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715195,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715198,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-number)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715201,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695715461,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "ae3962a0-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "aea5e010-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "ae3962a0-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:15.473Z"
+  },
+  {
+    "type": "message",
+    "text": "2",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:35:20.594Z",
+    "channelData": {
+      "clientActivityId": "1533695676836.7824002506230543.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "b1b34720-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:35:20-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "Got it",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:21-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "b21627a0-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b1b34720-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:21.241Z"
+  },
+  {
+    "type": "message",
+    "text": "OK, here's what I have.  Click 'Reserve' to confirm your reservation.",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Beijing Tokyo Japanese Restaurant (2)",
+          "subtitle": "Tuesday, August 7, 2018 9:00 PM",
+          "text": "16112 Marsh Rd, Winter Garden, Winter Garden - 34787",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/beijing-tokyo-japanese-restaurant-32818_1442171546783.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "value": "Reserve",
+              "title": "Reserve"
+            }
+          ]
+        }
+      }
+    ],
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:21-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "b216eaf0-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b1b34720-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:21.246Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695720606,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"2\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720957,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: Cancel(0.334764928)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720962,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720964,
+        "level": "info",
+        "msg": "Prompt.returning(2)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720965,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720967,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720969,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720971,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720973,
+        "level": "info",
+        "msg": "waterfall() step 6 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720975,
+        "level": "info",
+        "msg": "Session.beginDialog(ConfirmReservationDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720978,
+        "level": "info",
+        "msg": "waterfall() step 1 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720980,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695720983,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695721238,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "b1b34720-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:21-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "b2178731-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b1b34720-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:21.251Z"
+  },
+  {
+    "type": "message",
+    "text": "Reserve",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:35:23.089Z",
+    "channelData": {
+      "clientActivityId": "1533695676836.7824002506230543.8"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "id": "b32ffc10-9ab3-11e8-af17-e7bcae9c1158",
+    "localTimestamp": "2018-08-07T22:35:23-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51747"
+  },
+  {
+    "type": "message",
+    "text": "Alright, you're all set for **Beijing Tokyo Japanese Restaurant** on **Aug 7, 2018** at **9:00 PM**.  I hope you have a great time!  Good-bye!",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "b3660030-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b32ffc10-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:23.441Z"
+  },
+  {
+    "type": "endOfConversation",
+    "code": "completedSuccessfully",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:35:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "b36711a1-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b32ffc10-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:23.450Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533695723107,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Reserve\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723416,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: None(0.1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723418,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723420,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723422,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723424,
+        "level": "info",
+        "msg": "waterfall() step 2 of 2",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723425,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723427,
+        "level": "info",
+        "msg": "waterfall() step 7 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723429,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723432,
+        "level": "info",
+        "msg": "Session.endConversation()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533695723434,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "b32ffc10-9ab3-11e8-af17-e7bcae9c1158",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51747"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:35:23-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "b368bf51-9ab3-11e8-af17-e7bcae9c1158",
+    "replyToId": "b32ffc10-9ab3-11e8-af17-e7bcae9c1158",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "979e2f30-9ab3-11e8-bd57-1528ba0a78f2|livechat"
+    },
+    "timestamp": "2018-08-08T02:35:23.461Z"
+  }
+]

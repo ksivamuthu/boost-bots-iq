@@ -1,0 +1,1754 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "62a7c090-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:18:48-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-08T02:18:48.984Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "62a7c091-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:18:48-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-08T02:18:48.985Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "create reservation",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:18:52.434Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "64b62e30-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:18:52-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Sure. I'm ready to help you at any time.",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:18:56-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "66fc2691-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "64b62e30-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:18:56.249Z"
+  },
+  {
+    "text": "Where will you be eating?  I'll look for restaurants in your area.",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:18:56-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "66fd5f11-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "64b62e30-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:18:56.257Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694732449,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"create reservation\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694732453,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tGlobalAction(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694732456,
+        "level": "info",
+        "msg": "Session.beginDialog(*:CreateReservation)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694732458,
+        "level": "info",
+        "msg": "waterfall() step 1 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694735981,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694735983,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-text)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694735992,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694736244,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "64b62e30-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:18:56-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "66fe4971-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "64b62e30-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:18:56.263Z"
+  },
+  {
+    "type": "message",
+    "text": "Tampa",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:04.991Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:04-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Alright, **Tampa** it is. I'll look for options in  your area.",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:05-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "6c6000c0-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:05.292Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694745007,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Tampa\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745011,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.5)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745013,
+        "level": "info",
+        "msg": "Prompt.returning(Tampa)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745015,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745017,
+        "level": "info",
+        "msg": "waterfall() step 2 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745026,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745280,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:05-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6c6271c1-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:05.308Z"
+  },
+  {
+    "type": "message",
+    "text": "What type of food are you in the mood for?",
+    "suggestedActions": {
+      "to": [],
+      "actions": [
+        {
+          "type": "imBack",
+          "value": "Pizza",
+          "title": "Pizza (20)"
+        },
+        {
+          "type": "imBack",
+          "value": "Italian",
+          "title": "Italian (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cheesesteaks",
+          "title": "Cheesesteaks (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Indian",
+          "title": "Indian (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vegetarian",
+          "title": "Vegetarian (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Halal",
+          "title": "Halal (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Food Delivery Services",
+          "title": "Food Delivery Services (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chinese",
+          "title": "Chinese (5)"
+        },
+        {
+          "type": "imBack",
+          "value": "Subs",
+          "title": "Subs (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sandwiches",
+          "title": "Sandwiches (5)"
+        },
+        {
+          "type": "imBack",
+          "value": "Dessert",
+          "title": "Dessert (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Ice Cream",
+          "title": "Ice Cream (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Ice Cream & Frozen Yogurt",
+          "title": "Ice Cream & Frozen Yogurt (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Custom Cakes",
+          "title": "Custom Cakes (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cupcakes",
+          "title": "Cupcakes (1)"
+        },
+        {
+          "type": "imBack",
+          "title": " (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Deli",
+          "title": "Deli (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Delis",
+          "title": "Delis (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Wings",
+          "title": "Wings (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Italian Food",
+          "title": "Italian Food (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chicken Wings",
+          "title": "Chicken Wings (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Desserts",
+          "title": "Desserts (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Gelato",
+          "title": "Gelato (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Barbeque",
+          "title": "Barbeque (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Bar/Pub Food",
+          "title": "Bar/Pub Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sports Bars",
+          "title": "Sports Bars (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Chinese Food",
+          "title": "Chinese Food (4)"
+        },
+        {
+          "type": "imBack",
+          "value": "Asian Food",
+          "title": "Asian Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vietnamese Food",
+          "title": "Vietnamese Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Dim Sum",
+          "title": "Dim Sum (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Vietnamese",
+          "title": "Vietnamese (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Mediterranean Food",
+          "title": "Mediterranean Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Mediterranean",
+          "title": "Mediterranean (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Salad",
+          "title": "Salad (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Healthy Food",
+          "title": "Healthy Food (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Soup",
+          "title": "Soup (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Taiwanese",
+          "title": "Taiwanese (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Japanese Food",
+          "title": "Japanese Food (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "Subs & Sandwiches",
+          "title": "Subs & Sandwiches (3)"
+        },
+        {
+          "type": "imBack",
+          "value": "American Food",
+          "title": "American Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Greek Food",
+          "title": "Greek Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Middle Eastern Food",
+          "title": "Middle Eastern Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Middle Eastern",
+          "title": "Middle Eastern (2)"
+        },
+        {
+          "type": "imBack",
+          "value": "Greek",
+          "title": "Greek (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Pita",
+          "title": "Pita (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Healthy",
+          "title": "Healthy (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Fast Food",
+          "title": "Fast Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Pasta",
+          "title": "Pasta (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Sushi",
+          "title": "Sushi (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cuban Food",
+          "title": "Cuban Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Latin American Food",
+          "title": "Latin American Food (1)"
+        },
+        {
+          "type": "imBack",
+          "value": "Cuban",
+          "title": "Cuban (1)"
+        }
+      ]
+    },
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:05-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6ccaa971-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:05.991Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694745727,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745729,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694745986,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:05-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6ccbbae1-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "6c3212f0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:05.998Z"
+  },
+  {
+    "type": "message",
+    "text": "Sandwiches",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:14.722Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:14-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Alright, let's see what we can find.",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "722d2411-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:15.025Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694754741,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Sandwiches\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694754754,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694754756,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694754758,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694754761,
+        "level": "info",
+        "msg": "waterfall() step 3 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694754763,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694755017,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "722e5c91-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:15.033Z"
+  },
+  {
+    "type": "message",
+    "text": "Here are some **Sandwiches** restaurants I found near *Tampa*:",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Chubby's Super Subs and Pizza",
+          "subtitle": "5023 Bayshore Blvd, Tampa, Tampa - 33611",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/chubbys-super-subs-and-pizza-17718_1405017421430.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/chubbys-super-subs-and-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Chubby's Super Subs and Pizza",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "D & D Gourmet Deli",
+          "subtitle": "4205 W Kennedy Blvd, Tampa, Tampa - 33609",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/d-and-d-gourmet-deli-6992_1384539528973.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/d-and-d-gourmet-deli",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "D & D Gourmet Deli",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Hungry Harry's BBQ - Seffner",
+          "subtitle": "2006 S. Parsons Ave., Seffner, Seffner - 33584",
+          "images": [
+            {
+              "url": "https://d3eygjmkm00b63.cloudfront.net/7eea3c076e0b1e998b206015369352e0/banner.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/hungry-harrys-bbq-seffner",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Hungry Harry's BBQ - Seffner",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "New York, New York Pizza - Carrollwood",
+          "subtitle": "10053 N Dale Mabry, Tampa, Tampa - 33618",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/amores-fresh-slice-pizzeria-10576_1397065209089.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/new-york-new-york-pizza",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "New York, New York Pizza - Carrollwood",
+              "title": "Select"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "Spanglish Cafe",
+          "subtitle": "4105 Gunn Highway, Tampa, Tampa - 33618",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/spanglish-cafe-34321_1489762547855.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://eatstreet.com/tampa-fl/restaurants/sabor-express-spanglish-cafe",
+              "title": "More Info"
+            },
+            {
+              "type": "imBack",
+              "value": "Spanglish Cafe",
+              "title": "Select"
+            }
+          ]
+        }
+      }
+    ],
+    "attachmentLayout": "carousel",
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "725a0070-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:15.319Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694755059,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694755062,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694755315,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:15-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "725ac3c0-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "71fee820-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:15.324Z"
+  },
+  {
+    "type": "message",
+    "text": "D & D Gourmet Deli",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:28.064Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "79f2bc00-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:28-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Sounds good...**D & D Gourmet Deli** it is!",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:28-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "7a34a701-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "79f2bc00-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:28.496Z"
+  },
+  {
+    "text": "When will you be eating?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:28-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7a360691-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "79f2bc00-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:28.505Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694768077,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"D & D Gourmet Deli\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768080,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768082,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768084,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768086,
+        "level": "info",
+        "msg": "waterfall() step 4 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768236,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768238,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-time)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768240,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694768492,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "79f2bc00-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:28-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7a36f0f1-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "79f2bc00-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:28.511Z"
+  },
+  {
+    "type": "message",
+    "text": "5pm tomorrow",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:35.047Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.8"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "7e1c4170-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:35-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Got it.  I'll book the reservation for **D & D Gourmet Deli** at **Wednesday, August 8, 2018 5:00 PM**",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:35-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "7e4d3c81-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "7e1c4170-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:35.368Z"
+  },
+  {
+    "text": "How many people will be in your party?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:35-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7e4e7501-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "7e1c4170-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:35.376Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694775060,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"5pm tomorrow\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775090,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775092,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775094,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775096,
+        "level": "info",
+        "msg": "waterfall() step 5 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775101,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775103,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-number)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775105,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694775363,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "7e1c4170-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:35-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "7e4f5f61-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "7e1c4170-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:35.382Z"
+  },
+  {
+    "type": "message",
+    "text": "15",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:42.158Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.10"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "82594ee0-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:42-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Got it",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "D & D Gourmet Deli (15)",
+          "subtitle": "Wednesday, August 8, 2018 5:00 PM",
+          "text": "4205 W Kennedy Blvd, Tampa, Tampa - 33609",
+          "images": [
+            {
+              "url": "https://eatstreet-static.s3.amazonaws.com/assets/images/restaurant_logos/d-and-d-gourmet-deli-6992_1384539528973.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "value": "Reserve",
+              "title": "Reserve"
+            }
+          ]
+        }
+      }
+    ],
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:42-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "828540e1-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "82594ee0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:42.446Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694782170,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"15\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782173,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782175,
+        "level": "info",
+        "msg": "Prompt.returning(15)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782177,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782179,
+        "level": "info",
+        "msg": "waterfall() step 6 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782185,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782187,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694782442,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "82594ee0-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:42-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "82860431-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "82594ee0-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:42.451Z"
+  },
+  {
+    "type": "message",
+    "text": "Reserve",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-08T02:19:46.133Z",
+    "channelData": {
+      "clientActivityId": "1533694728970.03270902142103482.12"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "id": "84b7d850-9ab1-11e8-b414-cbd22d82b033",
+    "localTimestamp": "2018-08-07T22:19:46-04:00",
+    "recipient": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51201"
+  },
+  {
+    "type": "message",
+    "text": "Alright, you're all set for **D & D Gourmet Deli** on **Aug 8, 2018** at **5:00 PM**.  I hope you have a great time!  Good-bye!",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:46-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "84bd7da1-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "84b7d850-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:46.170Z"
+  },
+  {
+    "type": "endOfConversation",
+    "code": "completedSuccessfully",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T22:19:46-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "84bfc791-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "84b7d850-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:46.185Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533694786147,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Reserve\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786150,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786152,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786153,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786155,
+        "level": "info",
+        "msg": "waterfall() step 7 of 7",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786159,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786161,
+        "level": "info",
+        "msg": "Session.endConversation()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533694786163,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "84b7d850-9ab1-11e8-b414-cbd22d82b033",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+      },
+      "bot": {
+        "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51201"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T22:19:46-04:00",
+    "from": {
+      "id": "c978ae90-91f3-11e8-b670-8767a4105eb1",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "84c12721-9ab1-11e8-b414-cbd22d82b033",
+    "replyToId": "84b7d850-9ab1-11e8-b414-cbd22d82b033",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "62a54f90-9ab1-11e8-b4a3-b95ed54cc972|livechat"
+    },
+    "timestamp": "2018-08-08T02:19:46.194Z"
+  }
+]

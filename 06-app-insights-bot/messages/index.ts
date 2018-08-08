@@ -29,7 +29,7 @@ const bot = new UniversalBot(connector, (session, _args) => {
 
 // Set inMemory Storage
 bot.set('storage', new MemoryBotStorage());
-bot.localePath(path.join(__dirname, './locale'));
+bot.localePath(path.join(__dirname, 'locale'));
 
 // Add LUIS
 const luisAppId = process.env.LuisAppId;

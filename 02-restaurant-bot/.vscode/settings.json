@@ -8,6 +8,7 @@
       "when": "$(basename).ts"
     }
   },
-  "editor.fontSize": 12,
-  "git.ignoreLimitWarning": true
+  "editor.fontSize": 16,
+  "git.ignoreLimitWarning": true,
+  "npm-scripts.showStartNotification": false
 }

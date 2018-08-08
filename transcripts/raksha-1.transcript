@@ -1,0 +1,666 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "id": "e9052b33-9a63-11e8-800d-efa9bc729ae4",
+    "localTimestamp": "2018-08-07T13:04:13-04:00",
+    "recipient": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-07T17:04:13.667Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51836"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "id": "e9055240-9a63-11e8-800d-efa9bc729ae4",
+    "localTimestamp": "2018-08-07T13:04:13-04:00",
+    "recipient": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-07T17:04:13.668Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "http://localhost:51836"
+  },
+  {
+    "type": "message",
+    "text": "Hi Raksha, what did you think about Hello World Bot?",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-07T17:04:27.279Z",
+    "channelData": {
+      "clientActivityId": "1533661453611.4425292861653345.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "id": "f12231f0-9a63-11e8-800d-efa9bc729ae4",
+    "localTimestamp": "2018-08-07T13:04:27-04:00",
+    "recipient": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51836"
+  },
+  {
+    "type": "message",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "images": [
+            {
+              "url": "https://cuduy.files.wordpress.com/2017/02/hello_meme.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:27-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "f152dee1-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f12231f0-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:27.598Z"
+  },
+  {
+    "text": "Yay!!! You are a programmer now :wink:",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:27-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "f1543e71-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f12231f0-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:27.607Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533661467303,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Hi Raksha, what did you think about Hello World Bot?\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467306,
+        "level": "info",
+        "msg": "Library(\"*\")recognize() recognized: HelloWorld(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467312,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tGlobalAction(1)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467316,
+        "level": "info",
+        "msg": "Session.beginDialog(*:HelloWorldBot)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467320,
+        "level": "info",
+        "msg": "waterfall() step 1 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467323,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467326,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-text)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467330,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661467583,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "f12231f0-9a63-11e8-800d-efa9bc729ae4",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+      },
+      "bot": {
+        "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51836"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T13:04:27-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "f1554fe0-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f12231f0-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:27.614Z"
+  },
+  {
+    "type": "message",
+    "text": "Funny",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-07T17:04:38.311Z",
+    "channelData": {
+      "clientActivityId": "1533661453611.4425292861653345.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "id": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "localTimestamp": "2018-08-07T13:04:38-04:00",
+    "recipient": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51836"
+  },
+  {
+    "type": "typing",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:38-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "f7e3c761-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:38.614Z"
+  },
+  {
+    "type": "message",
+    "text": "You know, there is meme generator bot, which helps you to create memes",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:41-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "f9ae7541-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:41.620Z"
+  },
+  {
+    "type": "typing",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:41-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "f9af3890-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:41.625Z"
+  },
+  {
+    "text": "https://hellotars.com/bot-examples/fun/meme-generator-bot/",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:04:44-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "fb7a3491-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:44.633Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533661478324,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Funny\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478328,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.5)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478331,
+        "level": "info",
+        "msg": "Prompt.returning(Funny)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478333,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478335,
+        "level": "info",
+        "msg": "waterfall() step 2 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478338,
+        "level": "info",
+        "msg": "Session.sendTyping()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478340,
+        "level": "info",
+        "msg": "Session.delay(%d)",
+        "args": [
+          3000
+        ]
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478343,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478346,
+        "level": "info",
+        "msg": "Session.sendTyping()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478348,
+        "level": "info",
+        "msg": "Session.delay(%d)",
+        "args": [
+          3000
+        ]
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478350,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-text)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478353,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661478608,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 6 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+      },
+      "bot": {
+        "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51836"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T13:04:44-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "fb7af7e1-9a63-11e8-800d-efa9bc729ae4",
+    "replyToId": "f7b58b70-9a63-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:04:44.638Z"
+  },
+  {
+    "type": "message",
+    "text": "That's cool",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-08-07T17:05:42.845Z",
+    "channelData": {
+      "clientActivityId": "1533661453611.4425292861653345.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "id": "1e2ca6d0-9a64-11e8-800d-efa9bc729ae4",
+    "localTimestamp": "2018-08-07T13:05:42-04:00",
+    "recipient": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:51836"
+  },
+  {
+    "type": "typing",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:05:43-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "1e593511-9a64-11e8-800d-efa9bc729ae4",
+    "replyToId": "1e2ca6d0-9a64-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:05:43.137Z"
+  },
+  {
+    "type": "message",
+    "text": "Ha Ha.. Yes. Not only fun things, Bots can do great conversation too.. Lets see how to design conversation",
+    "locale": "en-US",
+    "localTimestamp": "2018-08-07T13:05:43-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "1e5a1f70-9a64-11e8-800d-efa9bc729ae4",
+    "replyToId": "1e2ca6d0-9a64-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:05:43.143Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1533661542860,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"That's cool\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542862,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.5)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542865,
+        "level": "info",
+        "msg": "Prompt.returning(That's cool)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542867,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542869,
+        "level": "info",
+        "msg": "waterfall() step 3 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542871,
+        "level": "info",
+        "msg": "Session.sendTyping()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661542874,
+        "level": "info",
+        "msg": "Session.endDialog()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1533661543131,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "1e2ca6d0-9a64-11e8-800d-efa9bc729ae4",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+      },
+      "bot": {
+        "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "http://localhost:51836"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-08-07T13:05:43-04:00",
+    "from": {
+      "id": "d23cc420-99dd-11e8-a59e-676445d5ee0a",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "1e5abbb1-9a64-11e8-800d-efa9bc729ae4",
+    "replyToId": "1e2ca6d0-9a64-11e8-800d-efa9bc729ae4",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "e8fc9fb0-9a63-11e8-839a-495f4efc74c4|livechat"
+    },
+    "timestamp": "2018-08-07T17:05:43.147Z"
+  }
+]
